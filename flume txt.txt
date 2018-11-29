@@ -20,6 +20,3 @@ TwitterAgent.sinks.HDFS.hdfs.batchSize = 1000
 TwitterAgent.sinks.HDFS.hdfs.rollSize = 0
 TwitterAgent.sinks.HDFS.hdfs.rollCount = 10000
 
-TwitterAgent.channels.MemChannel.type = memory
-TwitterAgent.channels.MemChannel.capacity = 10000
-TwitterAgent.channels.MemChannel.transactionCapacity = 100
